@@ -8,7 +8,7 @@ class basic_view:
             try:
                 self.run()
             except Exception as e:
-                print(e)
+                print('\033[93m'+str(e)+'\033[0m')
 
     def run(self):
         line=input()
