@@ -15,4 +15,4 @@ class tk_view:
         self.button_main.pack(padx=10,pady=40)
 
     def run_time(self):
-        self.controller.do_it("adoro-te",10)
+        self.controller.printer("adoro-te, és linda",50)

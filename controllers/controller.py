@@ -10,7 +10,7 @@ class controller:
     def end(self):
         self.web_driver.close()
     
-    def do_it(self,word,times):
+    def printer(self,word,times):
         for i in range(times):
             tmp= self.web_driver.get_driver().find_element_by_xpath("/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]")
             tmp.send_keys(word)
