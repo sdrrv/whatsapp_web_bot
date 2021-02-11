@@ -15,3 +15,7 @@ class controller:
             tmp= self.web_driver.get_driver().find_element_by_xpath("/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]")
             tmp.send_keys(word)
             tmp.send_keys("\n")
+
+    def get_class(self): #_1RAno message-in focusable-list-item
+        pass
+
